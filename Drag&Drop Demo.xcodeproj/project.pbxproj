@@ -13,6 +13,7 @@
 		DAEA25DC2204DB860009D1D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAEA25DA2204DB860009D1D3 /* LaunchScreen.storyboard */; };
 		DAEA25E52204DF610009D1D3 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEA25E42204DF610009D1D3 /* Board.swift */; };
 		DAEA25E82204E3940009D1D3 /* BoardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEA25E72204E3940009D1D3 /* BoardCollectionViewCell.swift */; };
+		DAEA25EA2204E8C20009D1D3 /* BoardCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEA25E92204E8C20009D1D3 /* BoardCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DAEA25DD2204DB860009D1D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAEA25E42204DF610009D1D3 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 		DAEA25E72204E3940009D1D3 /* BoardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardCollectionViewCell.swift; sourceTree = "<group>"; };
+		DAEA25E92204E8C20009D1D3 /* BoardCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				DAEA25E72204E3940009D1D3 /* BoardCollectionViewCell.swift */,
+				DAEA25E92204E8C20009D1D3 /* BoardCollectionViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAEA25E52204DF610009D1D3 /* Board.swift in Sources */,
+				DAEA25EA2204E8C20009D1D3 /* BoardCollectionViewController.swift in Sources */,
 				DAEA25D22204DB810009D1D3 /* AppDelegate.swift in Sources */,
 				DAEA25E82204E3940009D1D3 /* BoardCollectionViewCell.swift in Sources */,
 			);
